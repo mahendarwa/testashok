@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh 'https://github.com/mahendarwa/testashok.git'
             }
         }
         stage('Test') {
